@@ -1,0 +1,126 @@
+[
+  { "name": "Code identifiant", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Nom (identifiant)", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom (identifiant)", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Deuxième Prénom (identifiant)", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom à restituer", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Date de naissance", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Ville de naissance", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Région de naissance", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Pays de naissance", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom de la mère", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Date capacité juridique", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Date d'origine situation juridique", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+
+  { "name": "Numéro pièce d'identité", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Lieu de délivrance pièce d'identité", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Organisme délivreur pièce d'identité", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Date de délivrance pièce d'identité", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Date de validité pièce d'identité", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+
+  { "name": "Date d'entrée en relation", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Gestionnaire", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Adresse géographique", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Ville adresse géographique", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Pays adresse géographique", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Numéro de téléphone", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Stop alerte téléphone", "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher" },
+
+  { "name": "Adresse mail", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Stop alerte courriel", "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher" },
+
+  { "name": "Lien URL réseau social", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Date début adresse provisoire", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Date fin adresse provisoire", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+
+  { "name": "Statut représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher" },
+  { "name": "Nom représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Adresse représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Courriel représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Numéro téléphone représentant légal", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Date d'embauche", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Date de fin de contrat", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Adresse employeur", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Téléphone employeur", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Mail employeur", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Nom banque", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Numéro de compte bancaire", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Clé bancaire", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Année référence budget", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Taux moyen imposition", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Budget mensuel", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Taux endettement", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Période revenu", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Montant revenu", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Total mensuel revenus", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Période charge", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Montant charge", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Montant initial charge", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Échéance charge", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Organisme créancier charge", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Total mensuel charges", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Rapport charges/revenus", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Année référence patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Niveau fiabilité patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Exhaustivité données patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher" },
+
+  { "name": "Type de patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Estimation patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Capital restant dû patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Valeur nette patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Concurrence patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:checkbox", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher" },
+  { "name": "Échéance patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+
+  { "name": "Total estimation patrimoine", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Total capital restant dû", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+  { "name": "Total valeur nette", "type": "com.atlassian.jira.plugin.system.customfieldtypes:float", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber" },
+
+  { "name": "Code tiers client prospect", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Code lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Adresse lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Courriel lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Téléphone lien familial", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Code compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Adresse compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Courriel compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Téléphone compte joint", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Code client parrainé", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom filleul", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom filleul", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Adresse filleul", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Courriel filleul", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Téléphone filleul", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Code groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Nom groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Prénom groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Adresse groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textarea", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Courriel groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Téléphone groupe", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+
+  { "name": "Nom document justificatif", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Date délivrance document", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" },
+  { "name": "Lieu délivrance document", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Organisme délivrance document", "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher" },
+  { "name": "Date validité document", "type": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker", "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:daterange" }
+]

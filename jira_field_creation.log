@@ -1,0 +1,85 @@
+2026-10-15 10:19:53,817 [INFO] Authentification : Basic (stephane)
+2026-10-15 10:19:58,164 [INFO] 🔗 Connecté en tant que : stephane
+2026-10-15 10:19:58,169 [INFO] 📋 73 définitions de champs à traiter
+2026-10-15 10:20:07,568 [INFO] ⏭️  Champ déjà existant : Nature création (id=customfield_12264) — ignoré
+2026-10-15 10:20:24,193 [INFO] ✅ Champ créé : Type individu (id=customfield_12600)
+2026-10-15 10:20:28,474 [INFO] ⏭️  Champ déjà existant : Langue (id=customfield_12425) — ignoré
+2026-10-15 10:20:30,128 [INFO] ⏭️  Champ déjà existant : Titre (id=customfield_12426) — ignoré
+2026-10-15 10:20:35,996 [INFO] ⏭️  Champ déjà existant : Genre (id=customfield_11904) — ignoré
+2026-10-15 10:20:37,776 [INFO] ⏭️  Champ déjà existant : Nationalité (id=customfield_12427) — ignoré
+2026-10-15 10:20:45,512 [INFO] ⏭️  Champ déjà existant : Pays de résidence (id=customfield_12438) — ignoré
+2026-10-15 10:20:48,334 [INFO] ⏭️  Champ déjà existant : Situation familiale (id=customfield_11019) — ignoré
+2026-10-15 10:20:51,252 [INFO] ⏭️  Champ déjà existant : Régime matrimonial (id=customfield_11182) — ignoré
+2026-10-15 10:20:54,000 [INFO] ⏭️  Champ déjà existant : Capacité juridique (id=customfield_12429) — ignoré
+2026-10-15 10:20:55,527 [INFO] ⏭️  Champ déjà existant : Situation juridique (id=customfield_12431) — ignoré
+2026-10-15 10:21:11,482 [INFO] ✅ Champ créé : Situation immobilière (état civil) (id=customfield_12601)
+2026-10-15 10:21:13,902 [INFO] ⏭️  Champ déjà existant : Nature pièce d'identité (id=customfield_12433) — ignoré
+2026-10-15 10:21:14,959 [INFO] ⏭️  Champ déjà existant : Type de téléphone (id=customfield_12500) — ignoré
+2026-10-15 10:21:33,294 [INFO] ✅ Champ créé : Format téléphone (id=customfield_12602)
+2026-10-15 10:21:48,793 [INFO] ✅ Champ créé : Type de courriel (id=customfield_12603)
+2026-10-15 10:22:02,325 [INFO] ✅ Champ créé : Type de réseau social (id=customfield_12604)
+2026-10-15 10:22:22,408 [INFO] ✅ Champ créé : Ville du représentant légal (id=customfield_12605)
+2026-10-15 10:22:43,016 [INFO] ✅ Champ créé : Pays du représentant légal (id=customfield_12606)
+2026-10-15 10:22:59,088 [INFO] ✅ Champ créé : Format téléphone représentant légal (id=customfield_12607)
+2026-10-15 10:23:01,058 [INFO] ⏭️  Champ déjà existant : Profession (id=customfield_11165) — ignoré
+2026-10-15 10:23:02,551 [INFO] ⏭️  Champ déjà existant : Employeur (id=customfield_11166) — ignoré
+2026-10-15 10:23:22,812 [INFO] ✅ Champ créé : Type de contrat (id=customfield_12608)
+2026-10-15 10:23:34,252 [INFO] ✅ Champ créé : Tranche de revenus (id=customfield_12609)
+2026-10-15 10:23:49,227 [INFO] ✅ Champ créé : Format téléphone employeur (id=customfield_12610)
+2026-10-15 10:24:10,305 [INFO] ✅ Champ créé : Etablissement bancaire (id=customfield_12611)
+2026-10-15 10:24:28,186 [INFO] ✅ Champ créé : Guichet bancaire (id=customfield_12612)
+2026-10-15 10:24:49,394 [INFO] ✅ Champ créé : Catégorie Agent économique (id=customfield_12613)
+2026-10-15 10:24:52,936 [INFO] ⏭️  Champ déjà existant : Secteur d'activité (id=customfield_11260) — ignoré
+2026-10-15 10:25:10,156 [INFO] ✅ Champ créé : Pays d'activité (id=customfield_12614)
+2026-10-15 10:25:15,610 [INFO] ⏭️  Champ déjà existant : Consentement BIC (id=customfield_11907) — ignoré
+2026-10-15 10:25:30,259 [INFO] ✅ Champ créé : Type de revenu (id=customfield_12615)
+2026-10-15 10:25:42,329 [INFO] ✅ Champ créé : Devise du revenu (id=customfield_12616)
+2026-10-15 10:25:53,488 [INFO] ✅ Champ créé : Type de charge (id=customfield_12617)
+2026-10-15 10:26:23,357 [INFO] ✅ Champ créé : Devise de la charge (id=customfield_12618)
+2026-10-15 10:26:53,891 [ERROR] Erreur de requête GET https://jira.dev.wassa-shared.com/rest/api/2/field: HTTPSConnectionPool(host='jira.dev.wassa-shared.com', port=443): Read timed out. (read timeout=30)
+2026-10-15 10:27:39,685 [INFO] ✅ Champ créé : Situation immobilière (patrimoine) (id=customfield_12619)
+2026-10-15 10:28:08,010 [INFO] ✅ Champ créé : Devise du patrimoine (id=customfield_12620)
+2026-10-15 10:28:26,326 [INFO] ✅ Champ créé : Localisation du patrimoine (id=customfield_12621)
+2026-10-15 10:28:42,317 [INFO] ✅ Champ créé : Contexte EER (id=customfield_12622)
+2026-10-15 10:28:55,715 [INFO] ✅ Champ créé : Motif EER (id=customfield_12623)
+2026-10-15 10:29:13,564 [INFO] ✅ Champ créé : Produits à conseiller (id=customfield_12624)
+2026-10-15 10:29:30,948 [INFO] ✅ Champ créé : Marché (id=customfield_12625)
+2026-10-15 10:29:48,695 [INFO] ✅ Champ créé : Segment de Marché (id=customfield_12626)
+2026-10-15 10:30:01,732 [INFO] ✅ Champ créé : Segment Interne (id=customfield_12627)
+2026-10-15 10:30:19,731 [INFO] ✅ Champ créé : Potentiel (id=customfield_12628)
+2026-10-15 10:30:39,934 [INFO] ✅ Champ créé : Portefeuille Principal (id=customfield_12629)
+2026-10-15 10:30:52,811 [INFO] ✅ Champ créé : Conseiller clientèle principale (id=customfield_12630)
+2026-10-15 10:31:05,431 [INFO] ✅ Champ créé : Agence principale (id=customfield_12631)
+2026-10-15 10:31:21,564 [INFO] ✅ Champ créé : Intensité de la relation commerciale (id=customfield_12632)
+2026-10-15 10:31:37,450 [INFO] ✅ Champ créé : Type de lien familial (id=customfield_12633)
+2026-10-15 10:32:09,853 [INFO] ⏭️  Champ déjà existant : Lien de parenté (id=customfield_12287) — ignoré
+2026-10-15 10:32:26,284 [INFO] ✅ Champ créé : Pays du lien familial (id=customfield_12634)
+2026-10-15 10:32:51,991 [INFO] ✅ Champ créé : Ville du lien familial (id=customfield_12635)
+2026-10-15 10:33:22,962 [INFO] ✅ Champ créé : Format téléphone du lien familial (id=customfield_12636)
+2026-10-15 10:34:16,685 [INFO] ✅ Champ créé : Secteur d'activité du lien familial (id=customfield_12637)
+2026-10-15 10:34:56,630 [INFO] ✅ Champ créé : Relation compte joint (id=customfield_12638)
+2026-10-15 10:35:27,308 [ERROR] Erreur de requête GET https://jira.dev.wassa-shared.com/rest/api/2/field: HTTPSConnectionPool(host='jira.dev.wassa-shared.com', port=443): Read timed out. (read timeout=30)
+2026-10-15 10:35:42,301 [INFO] ✅ Champ créé : Type de compte joint (id=customfield_12639)
+2026-10-15 10:36:05,949 [INFO] ✅ Champ créé : Pays du compte joint (id=customfield_12640)
+2026-10-15 10:36:34,095 [INFO] ✅ Champ créé : Ville du compte joint (id=customfield_12641)
+2026-10-15 10:36:45,804 [INFO] ✅ Champ créé : Format téléphone du compte joint (id=customfield_12642)
+2026-10-15 10:37:06,552 [INFO] ✅ Champ créé : Secteur d'activité du compte joint (id=customfield_12643)
+2026-10-15 10:37:18,970 [INFO] ✅ Champ créé : Sens du parrainage (id=customfield_12644)
+2026-10-15 10:37:31,534 [INFO] ✅ Champ créé : Pays du filleul (id=customfield_12645)
+2026-10-15 10:37:50,275 [INFO] ✅ Champ créé : Ville du filleul (id=customfield_12646)
+2026-10-15 10:38:08,301 [INFO] ✅ Champ créé : Format téléphone du filleul (id=customfield_12647)
+2026-10-15 10:38:23,240 [INFO] ✅ Champ créé : Profession du filleul (id=customfield_12648)
+2026-10-15 10:38:45,347 [INFO] ✅ Champ créé : Secteur d'activité du filleul (id=customfield_12649)
+2026-10-15 10:39:15,926 [INFO] ✅ Champ créé : Type de groupe (id=customfield_12650)
+2026-10-15 10:39:40,084 [INFO] ✅ Champ créé : Pays du groupe (id=customfield_12651)
+2026-10-15 10:39:56,543 [INFO] ✅ Champ créé : Ville du groupe (id=customfield_12652)
+2026-10-15 10:40:08,065 [INFO] ✅ Champ créé : Format téléphone du groupe (id=customfield_12653)
+2026-10-15 10:40:21,981 [INFO] ✅ Champ créé : Secteur d'activité du groupe (id=customfield_12654)
+2026-10-15 10:40:37,798 [INFO] ⏭️  Champ déjà existant : Type de document (id=customfield_12293) — ignoré
+2026-10-15 10:40:37,807 [INFO] 📄 Guide des options exporté : jira_fields_options.md
+2026-10-15 10:40:37,808 [INFO] ============================================================
+2026-10-15 10:40:37,808 [INFO] ✅ Créés   : 55
+2026-10-15 10:40:37,808 [INFO] ⏭️  Ignorés : 18 (déjà existants)
+2026-10-15 10:40:37,808 [INFO] ❌ Échecs   : 0
+2026-10-15 10:40:37,808 [INFO] 📄 Guide des options : jira_fields_options.md
+2026-10-15 10:40:37,809 [INFO] ============================================================

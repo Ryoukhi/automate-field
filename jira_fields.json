@@ -1,0 +1,456 @@
+[
+  {
+    "name": "Nature création",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Tiers", "Prospect", "Client"]
+  },
+  {
+    "name": "Type individu",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Société", "Entreprise individuelle", "Particulier"]
+  },
+  {
+    "name": "Langue",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel langues"]
+  },
+  {
+    "name": "Titre",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des titres"]
+  },
+  {
+    "name": "Genre",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Masculin", "Féminin"]
+  },
+  {
+    "name": "Nationalité",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ISO pays"]
+  },
+  {
+    "name": "Pays de résidence",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ISO pays"]
+  },
+  {
+    "name": "Situation familiale",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": [
+      "Célibataire", "Divorcé", "Marié", "Séparé",
+      "Veuf (ve)", "Cohabitation légale", "Pacs",
+      "Union libre", "Inconnu"
+    ]
+  },
+  {
+    "name": "Régime matrimonial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel régime matrimonial"]
+  },
+  {
+    "name": "Capacité juridique",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": [
+      "Majeur", "Majeur incapable", "Majeur sous tutelle",
+      "Majeur sous curatelle", "Mineur", "Mineur émancipé",
+      "Interdiction légale"
+    ]
+  },
+  {
+    "name": "Situation juridique",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": [
+      "Situation normale", "En règlement amiable",
+      "En règlement judiciaire", "En liquidation",
+      "Compte bloqué", "En constitution", "En activité"
+    ]
+  },
+  {
+    "name": "Situation immobilière (état civil)",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Locataire", "Propriétaire", "Co propriétaire"]
+  },
+  {
+    "name": "Nature pièce d'identité",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": [
+      "Carte consulaire", "Carte diplomatique",
+      "Carte nationale d'identité", "Carte de séjour",
+      "Extrait de naissance", "Passeport"
+    ]
+  },
+  {
+    "name": "Type de téléphone",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Domicile", "Portable", "Professionnel"]
+  },
+  {
+    "name": "Format téléphone",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des pays"]
+  },
+  {
+    "name": "Type de courriel",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Mail personnel", "Mail professionnel"]
+  },
+  {
+    "name": "Type de réseau social",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["LinkedIn", "Facebook", "X", "WhatsApp"]
+  },
+  {
+    "name": "Ville du représentant légal",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel villes"]
+  },
+  {
+    "name": "Pays du représentant légal",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Format téléphone représentant légal",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des pays"]
+  },
+  {
+    "name": "Profession",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des professions"]
+  },
+  {
+    "name": "Employeur",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des employeurs"]
+  },
+  {
+    "name": "Type de contrat",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel types de contrats"]
+  },
+  {
+    "name": "Tranche de revenus",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["De 200.000 à 500.000"]
+  },
+  {
+    "name": "Format téléphone employeur",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Etablissement bancaire",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des établissements bancaires"]
+  },
+  {
+    "name": "Guichet bancaire",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des guichets"]
+  },
+  {
+    "name": "Catégorie Agent économique",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel catégorie d'agent économique"]
+  },
+  {
+    "name": "Secteur d'activité",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des secteurs d'activité"]
+  },
+  {
+    "name": "Pays d'activité",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Consentement BIC",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["OUI", "NON"]
+  },
+  {
+    "name": "Type de revenu",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Devise du revenu",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel devises"]
+  },
+  {
+    "name": "Type de charge",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Devise de la charge",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel devises"]
+  },
+  {
+    "name": "Situation immobilière (patrimoine)",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Propriétaire", "Locataire", "Co-locataire"]
+  },
+  {
+    "name": "Devise du patrimoine",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel devises"]
+  },
+  {
+    "name": "Localisation du patrimoine",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Contexte EER",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des contextes"]
+  },
+  {
+    "name": "Motif EER",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des motifs"]
+  },
+  {
+    "name": "Produits à conseiller",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des produits"]
+  },
+  {
+    "name": "Marché",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des Marchés"]
+  },
+  {
+    "name": "Segment de Marché",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des segments de Marchés"]
+  },
+  {
+    "name": "Segment Interne",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel SI"]
+  },
+  {
+    "name": "Potentiel",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel Potentiel"]
+  },
+  {
+    "name": "Portefeuille Principal",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel portefeuille"]
+  },
+  {
+    "name": "Conseiller clientèle principale",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel CC"]
+  },
+  {
+    "name": "Agence principale",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel agence"]
+  },
+  {
+    "name": "Intensité de la relation commerciale",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Faible", "moyenne", "forte"]
+  },
+  {
+    "name": "Type de lien familial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Client", "Tiers"]
+  },
+  {
+    "name": "Lien de parenté",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des liens de parenté"]
+  },
+  {
+    "name": "Pays du lien familial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Ville du lien familial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ville"]
+  },
+  {
+    "name": "Format téléphone du lien familial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Secteur d'activité du lien familial",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Table des secteurs d'activité"]
+  },
+  {
+    "name": "Relation compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Table des relations compte joint"]
+  },
+  {
+    "name": "Type de compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Client", "Tiers"]
+  },
+  {
+    "name": "Pays du compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Ville du compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ville"]
+  },
+  {
+    "name": "Format téléphone du compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Secteur d'activité du compte joint",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des secteurs d'activité"]
+  },
+  {
+    "name": "Sens du parrainage",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Parrain", "Filleule"]
+  },
+  {
+    "name": "Pays du filleul",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Ville du filleul",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ville"]
+  },
+  {
+    "name": "Format téléphone du filleul",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Profession du filleul",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des professions"]
+  },
+  {
+    "name": "Secteur d'activité du filleul",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des secteurs d'activité"]
+  },
+  {
+    "name": "Type de groupe",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Coopérative", "groupement", "Tontine"]
+  },
+  {
+    "name": "Pays du groupe",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel pays"]
+  },
+  {
+    "name": "Ville du groupe",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel ville"]
+  },
+  {
+    "name": "Format téléphone du groupe",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": []
+  },
+  {
+    "name": "Secteur d'activité du groupe",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel des secteurs d'activité"]
+  },
+  {
+    "name": "Type de document",
+    "type": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher",
+    "options": ["Référentiel types de document"]
+  }
+]
